@@ -34,4 +34,3 @@ This project uses a modified version of the "Stellar" template created by [HTML5
 
 > EasyQC is based on Stellar, originally developed by HTML5 UP, and adapted under the terms of the [CC BY 3.0 license](http://creativecommons.org/licenses/by/3.0/).
 
- 

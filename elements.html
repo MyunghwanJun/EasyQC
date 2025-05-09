@@ -1,390 +1,169 @@
 <!DOCTYPE HTML>
 <!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    EasyQC Elements Demo (Korean)
+    기반 템플릿: Stellar by HTML5 UP (html5up.net)
+    수정: 2025-05-08
 -->
-<html>
-	<head>
-		<title>Elements - Stellar by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>요소 데모 - EasyQC</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h1>요소 데모</h1>
+        <p>EasyQC 프론트엔드에서 사용되는 기본 UI 컴포넌트 미리보기</p>
+      </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- Content -->
+        <section id="content" class="main">
+          <!-- Text -->
+          <section>
+            <h2>텍스트 예시</h2>
+            <p>
+              이것은 <b>볼드</b>이고, 이것은 <strong>스트롱</strong>입니다. 이것은 <i>이탤릭</i>이며 <em>강조</em>입니다.
+              이것은 <sup>윗첨자</sup>이고 <sub>아래첨자</sub>입니다.&nbsp;
+              코드 예: <code>for (let i = 0; i &lt; 10; i++) &#123; ... &#125;</code>. <a href="#">링크 예시</a>.
+            </p>
+            <hr />
+            <h3>인용구</h3>
+            <blockquote>
+              "데이터는 거짓말을 하지 않는다. 스마트한 품질관리는 데이터를 이해하는 것에서 시작한다."
+            </blockquote>
+            <h3>서식 코드</h3>
+            <pre><code>// 간단한 JavaScript 함수
+function hello(name) &#123;
+  console.log(`안녕하세요, ${name}!`);
+&#125;
+</code></pre>
+          </section>
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Elements</h1>
-						<p>Ipsum dolor sit amet nullam</p>
-					</header>
+          <!-- Lists -->
+          <section>
+            <h2>목록</h2>
+            <div class="row">
+              <div class="col-6 col-12-medium">
+                <h3>순서 없는 목록</h3>
+                <ul>
+                  <li>스마트 계측</li>
+                  <li>AI 품질 판정</li>
+                  <li>리포트 자동화</li>
+                  <li>클라우드 백업</li>
+                </ul>
+                <h3>대안 스타일</h3>
+                <ul class="alt">
+                  <li>낮은 비용</li>
+                  <li>쉬운 사용성</li>
+                  <li>스케일 확장</li>
+                  <li>데이터 기반</li>
+                </ul>
+              </div>
+              <div class="col-6 col-12-medium">
+                <h3>순서 있는 목록</h3>
+                <ol>
+                  <li>앱 실행</li>
+                  <li>제품 촬영</li>
+                  <li>AI 분석</li>
+                  <li>결과 확인</li>
+                </ol>
+              </div>
+            </div>
+          </section>
 
-				<!-- Main -->
-					<div id="main">
+          <!-- Buttons -->
+          <section>
+            <h2>버튼</h2>
+            <ul class="actions">
+              <li><a href="#" class="button primary">주요 동작</a></li>
+              <li><a href="#" class="button">기본 동작</a></li>
+              <li><a href="#" class="button small">작은 버튼</a></li>
+            </ul>
+          </section>
 
-						<!-- Content -->
-							<section id="content" class="main">
+          <!-- Table -->
+          <section>
+            <h2>테이블 예시</h2>
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>기능</th>
+                    <th>설명</th>
+                    <th>상태</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>치수 측정</td>
+                    <td>스마트폰 카메라로 0.1&nbsp;mm 정확도 측정</td>
+                    <td>완료</td>
+                  </tr>
+                  <tr>
+                    <td>양·불 판정</td>
+                    <td>Edge AI 분류 모델로 즉시 결과 제공</td>
+                    <td>완료</td>
+                  </tr>
+                  <tr>
+                    <td>데이터 리포트</td>
+                    <td>불량률, 추세 분석 리포트 PDF 생성</td>
+                    <td>진행 중</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
 
-								<!-- Text -->
-									<section>
-										<h2>Text</h2>
-										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-										<hr />
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<hr />
-										<h2>Heading Level 2</h2>
-										<h3>Heading Level 3</h3>
-										<h4>Heading Level 4</h4>
-										<hr />
-										<h3>Blockquote</h3>
-										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-										<h3>Preformatted</h3>
-										<pre><code>i = 0;
+          <!-- Form -->
+          <section>
+            <h2>문의 폼</h2>
+            <form method="post" action="#">
+              <div class="row gtr-uniform">
+                <div class="col-6 col-12-xsmall">
+                  <input type="text" name="name" id="name" placeholder="이름" />
+                </div>
+                <div class="col-6 col-12-xsmall">
+                  <input type="email" name="email" id="email" placeholder="이메일" />
+                </div>
+                <div class="col-12">
+                  <textarea name="message" id="message" placeholder="문의 내용을 입력하세요" rows="6"></textarea>
+                </div>
+                <div class="col-12">
+                  <ul class="actions">
+                    <li><input type="submit" value="보내기" class="primary" /></li>
+                    <li><input type="reset" value="취소" /></li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+          </section>
+        </section>
+      </div>
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
+      <!-- Footer -->
+      <footer id="footer">
+        <section>
+          <h2>EasyQC</h2>
+          <p>AI 기반 스마트폰 계측·검수 솔루션</p>
+        </section>
+        <p class="copyright">&copy; 2025 EasyQC. 템플릿 출처: <a href="https://html5up.net">HTML5 UP</a>.</p>
+      </footer>
+    </div>
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-									</section>
-
-								<!-- Lists -->
-									<section>
-										<h2>Lists</h2>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<h3>Unordered</h3>
-												<ul>
-													<li>Dolor pulvinar magna etiam.</li>
-													<li>Sagittis sed lorem adipiscing.</li>
-													<li>Felis enim etiam feugiat.</li>
-													<li>Ipsum lorem nullam consequat.</li>
-												</ul>
-												<h3>Alternate</h3>
-												<ul class="alt">
-													<li>Dolor pulvinar magna etiam.</li>
-													<li>Sagittis sed lorem adipiscing.</li>
-													<li>Felis enim etiam feugiat.</li>
-													<li>Ipsum lorem nullam consequat.</li>
-												</ul>
-											</div>
-											<div class="col-6 col-12-medium">
-												<h3>Ordered</h3>
-												<ol>
-													<li>Dolor pulvinar etiam.</li>
-													<li>Etiam vel felis viverra.</li>
-													<li>Felis enim feugiat.</li>
-													<li>Dolor pulvinar etiam.</li>
-													<li>Etiam vel felis lorem.</li>
-													<li>Felis enim et feugiat.</li>
-												</ol>
-												<h3>Icons</h3>
-												<ul class="icons">
-													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-													<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-												</ul>
-												<ul class="icons">
-													<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-													<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-													<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-													<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-													<li><a href="#" class="icon brands alt fa-dribbble"><span class="label">Dribbble</span></a></li>
-												</ul>
-											</div>
-										</div>
-										<h2>Actions</h2>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<ul class="actions">
-													<li><a href="#" class="button primary">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
-												</ul>
-												<ul class="actions small">
-													<li><a href="#" class="button primary small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
-												</ul>
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
-												</ul>
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
-												</ul>
-											</div>
-											<div class="col-6 col-12-medium">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary fit">Default</a></li>
-													<li><a href="#" class="button fit">Default</a></li>
-												</ul>
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary small fit">Small</a></li>
-													<li><a href="#" class="button small fit">Small</a></li>
-												</ul>
-											</div>
-										</div>
-									</section>
-
-								<!-- Table -->
-									<section>
-										<h2>Table</h2>
-										<h3>Default</h3>
-										<div class="table-wrapper">
-											<table>
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-
-										<h3>Alternate</h3>
-										<div class="table-wrapper">
-											<table class="alt">
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-									</section>
-
-								<!-- Buttons -->
-									<section>
-										<h3>Buttons</h3>
-										<ul class="actions">
-											<li><a href="#" class="button primary">Primary</a></li>
-											<li><a href="#" class="button">Default</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button large">Large</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button small">Small</a></li>
-										</ul>
-										<ul class="actions fit">
-											<li><a href="#" class="button primary fit">Fit</a></li>
-											<li><a href="#" class="button fit">Fit</a></li>
-											<li><a href="#" class="button fit">Fit</a></li>
-										</ul>
-										<ul class="actions fit small">
-											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-											<li><a href="#" class="button fit small">Fit + Small</a></li>
-											<li><a href="#" class="button fit small">Fit + Small</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary icon solidfa-download">Icon</a></li>
-											<li><a href="#" class="button icon solid fa-upload">Icon</a></li>
-											<li><a href="#" class="button icon solid fa-save">Icon</a></li>
-										</ul>
-										<ul class="actions">
-											<li><span class="button primary disabled">Disabled</span></li>
-											<li><span class="button disabled">Disabled</span></li>
-										</ul>
-									</section>
-
-								<!-- Form -->
-									<section>
-										<h2>Form</h2>
-										<form method="post" action="#">
-											<div class="row gtr-uniform">
-												<div class="col-6 col-12-xsmall">
-													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-												</div>
-												<div class="col-6 col-12-xsmall">
-													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-												</div>
-												<div class="col-12">
-													<select name="demo-category" id="demo-category">
-														<option value="">- Category -</option>
-														<option value="1">Manufacturing</option>
-														<option value="1">Shipping</option>
-														<option value="1">Administration</option>
-														<option value="1">Human Resources</option>
-													</select>
-												</div>
-												<div class="col-4 col-12-small">
-													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-													<label for="demo-priority-low">Low</label>
-												</div>
-												<div class="col-4 col-12-small">
-													<input type="radio" id="demo-priority-normal" name="demo-priority">
-													<label for="demo-priority-normal">Normal</label>
-												</div>
-												<div class="col-4 col-12-small">
-													<input type="radio" id="demo-priority-high" name="demo-priority">
-													<label for="demo-priority-high">High</label>
-												</div>
-												<div class="col-6 col-12-small">
-													<input type="checkbox" id="demo-copy" name="demo-copy">
-													<label for="demo-copy">Email me a copy</label>
-												</div>
-												<div class="col-6 col-12-small">
-													<input type="checkbox" id="demo-human" name="demo-human" checked>
-													<label for="demo-human">Not a robot</label>
-												</div>
-												<div class="col-12">
-													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-												</div>
-												<div class="col-12">
-													<ul class="actions">
-														<li><input type="submit" value="Send Message" class="primary" /></li>
-														<li><input type="reset" value="Reset" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
-
-								<!-- Image -->
-									<section>
-										<h2>Image</h2>
-										<h3>Fit</h3>
-										<div class="box alt">
-											<div class="row gtr-uniform">
-												<div class="col-12"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-											</div>
-										</div>
-										<h3>Left &amp; Right</h3>
-										<p><span class="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent lorem ipsum dolor sit amet veroeros consequat. Etiam tempus lorem ipsum.</p>
-										<p><span class="image right"><img src="images/pic06.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus..</p>
-									</section>
-
-							</section>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<h2>Aliquam sed mauris</h2>
-							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
-						</section>
-						<section>
-							<h2>Etiam feugiat</h2>
-							<dl class="alt">
-								<dt>Address</dt>
-								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-								<dt>Phone</dt>
-								<dd>(000) 000-0000 x 0000</dd>
-								<dt>Email</dt>
-								<dd><a href="#">information@untitled.tld</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
-							</ul>
-						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
